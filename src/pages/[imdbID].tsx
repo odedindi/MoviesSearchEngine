@@ -14,7 +14,6 @@ const MovieDetailsPage: React.FC = () => {
 	const url = `${baseUrl}&i=${useParams().imdbID}&plot=full`;
 	const movieDetails = useFetchCacheMovieDetails(url);
 
-
 	return movieDetails ? (
 		(movieDetails as APISearchResultsFailure).Error ? (
 			<ErrorMessage error={(movieDetails as APISearchResultsFailure).Error} />
