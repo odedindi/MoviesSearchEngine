@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import type { Movie } from '../../types/api';
 
-import { Divider, Title } from '@mantine/core';
+import { Divider } from '@mantine/core';
 
 import Ratings from './Ratings';
 import GeneralInfo from './GeneralInfo';

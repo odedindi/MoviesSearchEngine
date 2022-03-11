@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-import * as S from './styles';
-
 import type { Movie } from '../../types/api';
 import { useDocumentTitle } from '@mantine/hooks';
 

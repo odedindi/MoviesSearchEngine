@@ -32,7 +32,7 @@
 		"lint": "eslint src/**/*.ts src/**/*.tsx",
 		"check:types": "tsc --pretty --noEmit",
 		"check:format": "prettier --check .",
-		"check:lint": "eslint",
+		"check:lint": "yarn lint",
 		"check:all": "yarn check:format && yarn check:lint && yarn check:types",
 		"check:build": "yarn check:all && yarn build"
 	},
