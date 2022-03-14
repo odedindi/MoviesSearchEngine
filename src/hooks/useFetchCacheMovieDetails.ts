@@ -30,7 +30,7 @@ export const useFetchCacheMovieDetails = (url: string) => {
 					catchError(async (e) => {
 						if (process.env.NODE_ENV !== 'production') console.error(e);
 						return {
-							Error: 'An application error occured while fetching data.',
+							Error: 'An application error occurred while fetching data.',
 						};
 					}),
 				)

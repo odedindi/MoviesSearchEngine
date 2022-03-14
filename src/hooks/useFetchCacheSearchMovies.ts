@@ -10,6 +10,13 @@ import type {
 	MoviesSearch,
 } from '../types/api';
 
+
+/**
+ * 
+ * Currenly doesnt work and not in use!
+ * 
+ */
+
 export const useFetchCacheSearchMovies = (url: string) => {
 	const storageName = 'fetchCacheSearchMovies';
 
